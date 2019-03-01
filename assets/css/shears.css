@@ -1,0 +1,67 @@
+
+table.dataTable th {
+  padding: 20px;
+}
+.modal-dialog, .modal-dialog, .modal-content {
+    height: 67% !IMPORTANT;
+    width: 690px !important;
+}
+
+.modal-body {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+}
+.modal-content td {
+    padding: 20px 30px 0px 20px;
+    /* width: 110px !important; */
+}
+.modal-content th.sorting_desc {
+    width: 50px !important;
+    padding: 0px 0px 0px 0px !important;
+}
+th.sorting_asc {
+    width: 100% !IMPORTANT;
+    padding: 0px 0px 0px 0px!important;
+}
+th.sorting {
+    padding: 0px 0px 0px 0px !important;
+    /* width: 180px !important; */
+}
+.modal-content input.checkbox_check {
+    display: table;
+    margin: 0px auto;
+}
+div.dataTables_wrapper div.dataTables_paginate a {
+    margin: 0px 6px !IMPORTANT;
+    color: black !important;
+    text-transform: uppercase !IMPORTANT;
+    font-weight: bold !important;
+    font-size: 16px !IMPORTANT;
+}
+div.dataTables_wrapper div.dataTables_paginate {
+    margin: 0;
+    white-space: nowrap;
+    /* text-align: right; */
+    float: right;
+    /* width: 580px !IMPORTANT; */
+    padding-top: 0px !IMPORTANT;
+    color: black !IMPORTANT;
+    position: absolute !important;
+    left: 265px;
+}
+div#paid-shears-members-table_filter {
+    float: left;
+    width: 100% !IMPORTANT;
+    position: relative;
+    left: 100px;
+}
+.modal-dialog th:after {
+    display: none !important;
+}
+div#paid-shears-members-table_info {
+    font-size: 16px;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 0px 0px 0px 23px;
+}
